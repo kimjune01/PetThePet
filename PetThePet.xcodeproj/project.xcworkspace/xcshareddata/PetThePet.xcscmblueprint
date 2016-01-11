@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0CB70290DE456B4963B54A524B73F696C17F66AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0CB70290DE456B4963B54A524B73F696C17F66AA" : 0,
+    "53969DAA3BDD3E2831D32D48AD049FA457CD9F5B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "152F3E49-69A6-4010-B374-82E624170CA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0CB70290DE456B4963B54A524B73F696C17F66AA" : "PetThePet\/",
+    "53969DAA3BDD3E2831D32D48AD049FA457CD9F5B" : "iOS-9-Sampler\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PetThePet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PetThePet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kimjune01\/PetThePet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CB70290DE456B4963B54A524B73F696C17F66AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shu223\/iOS-9-Sampler.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53969DAA3BDD3E2831D32D48AD049FA457CD9F5B"
+    }
+  ]
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6BC0B21C433058007F9053 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BC0B11C433058007F9053 /* Animal.swift */; };
+		0E6BC0B41C43429B007F9053 /* rabbitImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BC0B31C43429B007F9053 /* rabbitImage.gif */; };
 		0E8376281C431316002749D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8376271C431316002749D0 /* AppDelegate.swift */; };
 		0E83762A1C431316002749D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8376291C431316002749D0 /* ViewController.swift */; };
 		0E83762D1C431316002749D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83762B1C431316002749D0 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		0E6BC0AD1C43203E007F9053 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		0E6BC0B11C433058007F9053 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = ../Animal.swift; sourceTree = "<group>"; };
+		0E6BC0B31C43429B007F9053 /* rabbitImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rabbitImage.gif; sourceTree = "<group>"; };
 		0E8376241C431316002749D0 /* PetThePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetThePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8376271C431316002749D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8376291C431316002749D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0E8376271C431316002749D0 /* AppDelegate.swift */,
+				0E6BC0B11C433058007F9053 /* Animal.swift */,
 				0E8376291C431316002749D0 /* ViewController.swift */,
 				0EFB5B5A1C431E6C007E7780 /* SomeButton.h */,
 				0EFB5B5B1C431E6C007E7780 /* SomeButton.m */,
@@ -72,6 +77,7 @@
 				0EFB5B541C431B84007E7780 /* ImportForceTouchViewController.swift */,
 				0E83762B1C431316002749D0 /* Main.storyboard */,
 				0E83762E1C431316002749D0 /* Assets.xcassets */,
+				0E6BC0B31C43429B007F9053 /* rabbitImage.gif */,
 				0E8376301C431316002749D0 /* LaunchScreen.storyboard */,
 				0E8376331C431316002749D0 /* Info.plist */,
 			);
@@ -148,6 +154,7 @@
 			files = (
 				0E8376321C431316002749D0 /* LaunchScreen.storyboard in Resources */,
 				0E83762F1C431316002749D0 /* Assets.xcassets in Resources */,
+				0E6BC0B41C43429B007F9053 /* rabbitImage.gif in Resources */,
 				0E83762D1C431316002749D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +171,7 @@
 				0E83762A1C431316002749D0 /* ViewController.swift in Sources */,
 				0E8376281C431316002749D0 /* AppDelegate.swift in Sources */,
 				0EFB5B551C431B84007E7780 /* ImportForceTouchViewController.swift in Sources */,
+				0E6BC0B21C433058007F9053 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

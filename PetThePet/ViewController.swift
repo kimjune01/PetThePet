@@ -10,15 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     private let kMaxRadius: CGFloat = 100.0
+    
+    let rabbit = Animal()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
+        rabbit.setup()
+        rabbit.imageView?.frame = view.bounds
+        view.addSubview(rabbit.imageView!);
     }
     
     override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
         checkForForceTouch()
     }
     
@@ -41,22 +46,29 @@ class ViewController: UIViewController {
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.showTouches(touches)
+        pet(rabbit, with: touches.first!.force)
     }
 
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.showTouches(touches)
+        pet(rabbit, with: touches.first!.force)
+        rabbit.updateView();
+    }
+
+    func pet (someAnimal: Animal, with force:Pressure) {
+        someAnimal.apply(force)
+        
+        
     }
     
-    private func showTouches(touches: Set<UITouch>) {
-        for obj: AnyObject in touches {
-            let touch = obj as! UITouch
-            let location = touch.locationInView(self.view)
-            let radius = kMaxRadius * touch.force / touch.maximumPossibleForce
-            self.createHaloAt(location, withRadius: radius)
-//            print(obj)
-        }
-    }
+    
+//    private func showTouches(touches: Set<UITouch>) {
+//        for obj: AnyObject in touches {
+//            let touch = obj as! UITouch
+//            let location = touch.locationInView(self.view)
+//            let radius = kMaxRadius * touch.force / touch.maximumPossibleForce
+//            self.createHaloAt(location, withRadius: radius)
+//        }
+//    }
     
     private func createHaloAt(location: CGPoint, withRadius radius: CGFloat) {
         let halo = PulsingHaloLayer()
@@ -67,12 +79,11 @@ class ViewController: UIViewController {
         halo.fromValueForRadius = 0.5
         halo.keyTimeForHalfOpacity = 0.7
         halo.animationDuration = 0.8
-        self.view.layer.addSublayer(halo)
+        view.layer.addSublayer(halo)
     }
-
 }
 
-extension UIColor { 
+extension UIColor {
    class func pinkColor() -> UIColor {
         return UIColor(red: 255/255.0, green: 192/255.0, blue: 203/255.0, alpha: 1)
     }
